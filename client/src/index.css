@@ -1,0 +1,156 @@
+/* styling for items in the navbar */
+.articleContainer {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.captionSize {
+  font-size: 24px;
+}
+
+.johnNavLink {
+  display: block;
+  padding: .5rem 0 .5rem 1rem;
+  font-size: 20px;
+}
+.brand {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black!important;
+}
+
+.navbar {
+  background-color: #faaf99;
+  /* background-color: rgb(247, 244, 233, 0.391); */
+}
+.navbar :hover {
+  color: white;
+}
+
+.embedSize {
+  height: 750px;
+  width: 75%;
+}
+
+.card {
+  margin: 10px 0px;
+}
+
+.mytextColor {
+  color: #C4D0CD !important;
+}
+
+.bg-light {
+  /* background-color: #faaf99 !important; */
+  background-color: #C4D0CD  !important;
+  color: #000;
+   border: none;
+}
+
+.aboutTextColor {
+  color: black;
+}
+
+/* styling for bottom of container */
+.marginBottomCont {
+  margin-bottom: 150px;
+}
+
+/* styling for buttons */
+.myButton {
+  color: black;
+  background-color: #C4D0CD ;
+  border: none;
+/*   background-color: rgb(39, 129, 83);
+  border-color: rgb(39, 129, 83); */
+  margin-right: 5px !important;
+  font-size: 20px;
+}
+
+.myButton :hover {
+  color: white !important;
+}
+
+/* styling to keep column items separated */
+.marginBottomCol {
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  height: 300;
+  clear: "both";
+  padding-top: 32px;
+  padding-bottom: 64px;
+  text-align: "center";
+  background-color: #EFF0EF;
+  /* background-image: url("./images/pngfind.com-books-png-591502.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 50%;
+}
+
+body {
+  background-color: rgb(247, 244, 233, 0.391);
+}
+
+/* styling for border bottom for Card object in grid */
+.myBottomBorder {
+  border-bottom-width: 5px !important;
+  border-bottom-style: solid !important;
+
+  border-bottom-color: gray;
+}
+.myBottomBorder1 {
+  border-bottom-width: 5px !important;
+  border-bottom-style: solid !important;
+
+  border-bottom-color: white;
+}
+/* generic padding amount */
+.padding {
+  padding-right: 20px;
+}
+/* form padding amount */
+.formPadding {
+  padding: 5px 20px;
+}
+.interiorCardColor {
+  /* background-color: rgb(250, 240, 153) */
+  background-color: #718879;
+}
+
+input[type="text"] {
+  background-color : rgb(247, 244, 233, 0391); 
+}
+
+input[type=text]:focus {
+  background-color: rgb(247, 244, 233, 0391);
+}
+
+.bookCardColor {
+  background-color: rgb(247, 244, 233, 0.391);
+}
+.card-img-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* styling for the footer */
+.myFooter {
+      /* padding: 5px 0; */
+      margin: 0;
+}
+
+.buttonMargin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card-padding {
+  padding: 5px;
+  margin: 5px;
+}
