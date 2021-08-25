@@ -10,7 +10,8 @@ The second page is the history page.  This page displays a list of all the searc
 
 * Copy files locally to one's machine
 * Install dependencies by executing the following in a terminal window in directory where files were copied. 
-    **npm install**
+
+**npm install**
 
 ## Usage
 
