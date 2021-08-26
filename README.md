@@ -8,17 +8,25 @@ The second page is the history page.  This page displays a list of all the searc
 
 ## Installation
 
-* Copy files locally to one's machine
-* Install dependencies by executing the following in a terminal window in directory where files were copied. 
+Fork or clone the repo.
+Make sure to install all the dependencies by running the following command:
 
 **npm install**
 
 ## Usage
 
-Once installed, the user can launch the application from a terminal window as follows:
+To use this application once installed, the user launches the application from a terminal window as follows:
 
 **npm start**
 
+This will then open a browser window at localhost:3000.
+
+## Technologies
+
+* React
+* axios
+* Bootstrap
+* Javascript
 
 ## Repository
 
