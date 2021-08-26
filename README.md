@@ -8,14 +8,15 @@ The second page is the history page.  This page displays a list of all the searc
 
 ## Installation
 
-Fork or clone the repo.
-Make sure to install all the dependencies by running the following command:
+  * Fork or clone the repo from github.
+  * Install node.js to your computer, if not already present.  Node.js can be installed from [here](https://nodejs.org/en/)
+  * Make sure to install all the dependencies by running the following command from a terminal window where files were forked/cloned to:
 
-**npm install**
+    * **npm install**
 
 ## Usage
 
-To use this application once installed, the user launches the application from a terminal window as follows:
+To use this application once installed, the user launches the application from a terminal window where files were forked/cloned to:
 
 **npm start**
 

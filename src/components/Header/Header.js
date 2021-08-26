@@ -7,9 +7,9 @@ function Navbar() {
 
       return (
         <div className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link className="mr-auto brand font-weight-bold" to="/" >
+            <div className="mr-auto brand font-weight-bold" >
                 Hacker News Search
-            </Link>
+            </div>
                 <div className="navbar navbar-expand-lg bg-light">
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,16 +19,16 @@ function Navbar() {
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <Link  to="/search" className={location.pathname === "/search"
-                                    ? "johnNavLink aboutTextColor font-weight-bold active"
-                                    : "johnNavLink aboutTextColor"
+                                    ? "menuNavLink aboutTextColor font-weight-bold active"
+                                    : "menuNavLink aboutTextColor"
                                     }>
                                     Search
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/history" className={location.pathname === "/history"
-                                        ? "johnNavLink aboutTextColor font-weight-bold active"
-                                        : "johnNavLink aboutTextColor"
+                                        ? "menuNavLink aboutTextColor font-weight-bold active"
+                                        : "menuNavLink aboutTextColor"
                                     }>
                                     History
                                 </Link>

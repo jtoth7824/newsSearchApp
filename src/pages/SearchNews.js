@@ -28,6 +28,7 @@ function Search() {
          })
        .catch(err => console.log(err));
        searchHistory.push(searchTerm);
+       // store new search term into "store" for state management
        dispatch({
         type: "searchTerms",
         searchTerms: searchHistory
@@ -43,9 +44,6 @@ function Search() {
     return (
       <Container fluid>
         <Jumbotron>
-          <h1><strong>Hacker News Search</strong></h1>
-          <br>
-          </br>
           <h3>Search for Hacker News articles</h3>
         </Jumbotron>
         <Row>
@@ -61,10 +59,6 @@ function Search() {
                     type="text"
                     className="form-control form-control-lg"
                     placeholder="Search Term"
-                    // disable the Enter key so a user hitting Enter doesn't accidentally reload the page with new data
-                    onKeyPress={e => {
-                    if (e.key === 'Enter') e.preventDefault();
-                    }}
                   />
                 <CardBtn /> 
                 </form>
